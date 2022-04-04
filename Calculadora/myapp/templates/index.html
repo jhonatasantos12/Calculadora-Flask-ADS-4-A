@@ -1,0 +1,16 @@
+<html>
+    <body>
+        <form action ="/" class="form-control" method="post">
+            Numero 1
+            <input class="form-control" type="text" name = "n1">
+            Numero 2 
+            <input class="form-control" type="text" name = "n2">
+            Operacao
+            <input class="form-control" type ="text" name ="op">
+            <button class="btn btn-primary" type="submit" value="submit">Enviar</button>
+        </form>
+        {%if resultado%}
+        <p>seu resultado é {{resultado}}</p>
+        {%endif%}
+    </body>
+</html>
